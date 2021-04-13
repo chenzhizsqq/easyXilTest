@@ -15,15 +15,21 @@ final class CustomView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        
+        //这里的初始化函数里，要用上下面这个函数，说明此代码是对应着哪个xib
         self.configureView()
     }
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
+        
+        //这里的初始化函数里，要用上下面这个函数，说明此代码是对应着哪个xib
         self.configureView()
     }
     
     private func configureView() {
+        
+        //在这里写上要对应的xib文件的名字。
         guard let view = self.loadViewFormNib(nibName: "CustomView") else { return  }
         view.frame = self.bounds
         self.addSubview(view)
