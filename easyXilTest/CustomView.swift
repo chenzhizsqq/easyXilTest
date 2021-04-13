@@ -7,6 +7,7 @@
 
 import UIKit
 
+//@IBDesignable,可以把控件的属性映射到XIB上
 @IBDesignable
 final class CustomView: UIView {
 
