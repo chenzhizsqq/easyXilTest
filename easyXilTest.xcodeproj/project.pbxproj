@@ -13,6 +13,9 @@
 		33762A9926257089000C02D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33762A9726257089000C02D4 /* Main.storyboard */; };
 		33762A9B2625708C000C02D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33762A9A2625708C000C02D4 /* Assets.xcassets */; };
 		33762A9E2625708C000C02D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33762A9C2625708C000C02D4 /* LaunchScreen.storyboard */; };
+		33762AA726257129000C02D4 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33762AA626257129000C02D4 /* CustomView.swift */; };
+		33762AAA2625715D000C02D4 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33762AA92625715D000C02D4 /* CustomView.xib */; };
+		33762AAD26257212000C02D4 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33762AAC26257212000C02D4 /* UIViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		33762A9A2625708C000C02D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33762A9D2625708C000C02D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33762A9F2625708C000C02D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33762AA626257129000C02D4 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		33762AA92625715D000C02D4 /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		33762AAC26257212000C02D4 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				33762A9A2625708C000C02D4 /* Assets.xcassets */,
 				33762A9C2625708C000C02D4 /* LaunchScreen.storyboard */,
 				33762A9F2625708C000C02D4 /* Info.plist */,
+				33762AA626257129000C02D4 /* CustomView.swift */,
+				33762AA92625715D000C02D4 /* CustomView.xib */,
+				33762AAC26257212000C02D4 /* UIViewExtension.swift */,
 			);
 			path = easyXilTest;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33762A9E2625708C000C02D4 /* LaunchScreen.storyboard in Resources */,
+				33762AAA2625715D000C02D4 /* CustomView.xib in Resources */,
 				33762A9B2625708C000C02D4 /* Assets.xcassets in Resources */,
 				33762A9926257089000C02D4 /* Main.storyboard in Resources */,
 			);
@@ -137,7 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33762AAD26257212000C02D4 /* UIViewExtension.swift in Sources */,
 				33762A9626257089000C02D4 /* ViewController.swift in Sources */,
+				33762AA726257129000C02D4 /* CustomView.swift in Sources */,
 				33762A9226257089000C02D4 /* AppDelegate.swift in Sources */,
 				33762A9426257089000C02D4 /* SceneDelegate.swift in Sources */,
 			);
